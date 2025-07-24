@@ -1,0 +1,59 @@
+/* Reset Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-size: 15px;
+
+  --White: hsl(0, 0%, 100%);
+
+  --Slate300: hsl(212, 45%, 89%);
+  --Slate500: hsl(216, 15%, 48%);
+  --Slate900: hsl(218, 44%, 22%);
+
+  background-color: var(--Slate300);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  width: 350px;
+  background-color: var(--White);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+img {
+  width: 330px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+h1,
+p {
+  text-align: center;
+  margin: 20px;
+}
